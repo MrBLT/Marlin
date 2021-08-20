@@ -1115,15 +1115,15 @@
 
 // Direction of endstops when homing; 1=MAX, -1=MIN
 // :[-1,1]
-#define X_HOME_DIR 1 // ROOT CNC
+#define X_HOME_DIR -1 // ROOT CNC
 #define Y_HOME_DIR 1 // ROOT CNC
 #define Z_HOME_DIR 1 // ROOT CNC
 
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 214 // ROOT CNC
-#define Y_BED_SIZE 220 // ROOT CNC
+#define X_BED_SIZE 700 // ROOT CNC
+#define Y_BED_SIZE 400 // ROOT CNC
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
